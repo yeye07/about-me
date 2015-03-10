@@ -1,0 +1,127 @@
+html{
+  
+}
+
+body{
+  /* typography declarations */
+  color: #243C73;
+  font-size: 1em; 
+  font-family:"Open Sans","Helvetica Neue", "sans-serif"; 
+ 
+}
+h1 {
+  color:red;
+  font-size: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://www.speedhunters.com/wp-content/uploads/2015/02/N-Style-Supra-16-1200x800.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #4473DA;
+}
+
+.masthead-intro {
+  /*layout declarations */
+  margin-bottom: 0.1em; 
+  /*typography Declarations*/
+  font-family: "Gentium Book Basic","Georgia","serif";
+font-size: 2em;
+  color:white;
+}
+
+.masthead-heading {
+  /*Layout Declarations*/
+    margin-top: -0.2em;
+  /*typography Declarations */
+  font-family: "Open Sans","Helvetica Neue","sans-serif";
+  font-style:normal;
+        font-weight: bold;
+   font-size: 6em; 
+  letter-spacing: -0.02em;
+    text-transform: uppercase;
+  color:#243C73;
+    text-shadow: 0px 3px 0px #4D84DA;
+}
+
+
+.introduction-section,
+.location-section,
+.question-section {
+  /*layout declarations*/
+  max-width: 38em;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2em;
+  color:black;
+  
+}
+
+.social > li {
+  display: inline-block; 
+  margin-right: 1em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  /* typography Declarations */
+  font-weight: 300; 
+  letter-spacing: 0.05em; 
+}
+
+.question-section > h2 {
+ font-family: "Gentium Book Basic","Georgia","serif";  Font-size: 2em; 
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em; 
+}
+
+.content-footer {
+  background-color: #243C73;
+}
+
+.content-footer{
+  color:white;
+  margin-top: 5em;
+  padding:4em 0;
+}
+
+/*links decorations*/
+a{
+  color:red;
+  font-weight: bold;
+  text-decoration:none;
+  background-color:transparent;
+}
+
+/* Queries*/
+@media /*only screen and*/ all (max-width:500px)
+{
+  .masthead {
+    padding: 2em 0;
+  }
+  .mashead-heading {
+    font-size:5em;
+  }
+ .content-footer{
+   padding: 3em 0;
+      font-size:1em;
+   
+ }
+  .social{
+    font-size:2em;
+  }
+  
+}
+/* Queries*/
