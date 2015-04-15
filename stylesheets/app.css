@@ -9877,3 +9877,72 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 42, ../scss/app.scss */
+.masthead {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.masthead:before, .masthead:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.masthead:after {
+  clear: both;
+}
+/* line 44, ../scss/app.scss */
+.masthead section .main {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+/* line 46, ../scss/app.scss */
+.masthead section .main .intro-image {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+/* line 48, ../scss/app.scss */
+.masthead section .main .intro-image .intro-text {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 56, ../scss/app.scss */
+  header .intro-image {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 33.33333%;
+    float: left;
+  }
+  /* line 58, ../scss/app.scss */
+  header .intro-image header .intro-text {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 66.66667%;
+    float: left;
+  }
+}
+/* line 64, ../scss/app.scss */
+.masthead img {
+  width: 300px;
+  height: 300px;
+  border-radius: 160px;
+  -webkit-border-radius: 160px;
+  -moz-border-radius: 160px;
+}
+
+/* line 72, ../scss/app.scss */
+div {
+  border: solid red 1px;
+}

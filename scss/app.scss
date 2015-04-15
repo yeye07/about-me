@@ -38,3 +38,37 @@
 //   "foundation/components/type";
 //   "foundation/components/offcanvas";
 //   "foundation/components/visibility";
+
+.masthead {
+	@include grid-row();
+	section .main {
+	@include grid-column(12);
+	.intro-image{
+	@include grid-column(12);
+	.intro-text{
+	@include grid-column(12);
+	}
+	}
+  }
+}
+
+@media #{$medium-up} {
+	header .intro-image{
+	@include grid-column (4);
+	header .intro-text{
+	@include grid-column (8);
+	}
+ }
+}
+
+.masthead img{
+	width: 300px;
+	height: 300px;
+	border-radius: 160px;
+	-webkit-border-radius: 160px;
+	-moz-border-radius: 160px;	
+}
+
+div {
+	border: solid red 1px;
+}
