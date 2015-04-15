@@ -9882,3 +9882,36 @@ th.hide-for-touch {
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
   content: "/";
 }
+
+.main {
+padding-top: 5%;
+padding-left: 3%;
+}
+
+.masthead{
+  /*background-size: cover;*/
+  box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+  height: 80%;
+}
+
+.masthead img {
+  width: 280px;
+  height: 280px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;  
+
+}
+
+.intro-text {
+	padding-top: 10%;
+	padding-right:10%;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+}
+
+.intro-text p{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 44px;
+}
+
