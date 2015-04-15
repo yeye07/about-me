@@ -41,8 +41,6 @@
 
 .masthead {
 	@include grid-row();
-	section .main {
-	@include grid-column(12);
 	.intro-image{
 	@include grid-column(12);
 	.intro-text{
@@ -50,15 +48,18 @@
 	}
 	}
   }
-}
+
 
 @media #{$medium-up} {
-	header .intro-image{
+.masthead {
+ @include grid-row();
+	.intro-image{
 	@include grid-column (4);
-	header .intro-text{
+	.intro-text{
 	@include grid-column (8);
 	}
  }
+}
 }
 
 .masthead img{
@@ -69,6 +70,19 @@
 	-moz-border-radius: 160px;	
 }
 
-div {
-	border: solid red 1px;
+.masthead{
+	border:solid gray 3px;
+}
+
+.main {
+	border: solid red 3px;
+}
+
+.intro-image{
+	border:solid blue 3px;
+}
+
+.intro-text{
+		border:solid green 3px;
+
 }
