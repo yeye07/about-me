@@ -64,15 +64,28 @@ body {
   }
 }
 
+.main{
+  padding-left:1em;
+  padding-top: 1em;
+}
+
 .masthead{
-  background: url('http://www.speedhunters.com/wp-content/uploads/2015/02/N-Style-Supra-16-1200x800.jpg');
-  background-size: cover;
+  /*background-size: cover;*/
   box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
   height: 80%;
 }
 
+.masthead img {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;  
+
+}
+
 .intro-text {
-  padding-top: 40%;
+  /*padding-top: 1em;*/
   color: rgba(255, 255, 255, 1);
   text-align: center;
 }
