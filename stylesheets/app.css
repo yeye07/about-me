@@ -9877,8 +9877,8 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 42, ../scss/app.scss */
-.masthead {
+/* line 45, ../scss/app.scss */
+.masthead, .introduction, .location-section, .question-section, .content-footer, .aside {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -9887,32 +9887,23 @@ th.hide-for-touch {
   max-width: 62.5rem;
 }
 /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
-.masthead:before, .masthead:after {
+.masthead:before, .masthead:after, .introduction:before, .introduction:after, .location-section:before, .location-section:after, .question-section:before, .question-section:after, .content-footer:before, .content-footer:after, .aside:before, .aside:after {
   content: " ";
   display: table;
 }
 /* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
-.masthead:after {
+.masthead:after, .introduction:after, .location-section:after, .question-section:after, .content-footer:after, .aside:after {
   clear: both;
 }
-/* line 44, ../scss/app.scss */
-.masthead .intro-image {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-}
-/* line 46, ../scss/app.scss */
-.masthead .intro-image .intro-text {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
+
+/* line 49, ../scss/app.scss */
+.masthead, .introduction, .location-section, .question-section, .content-footer, .aside {
+  border: solid red 1px;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 54, ../scss/app.scss */
-  .masthead {
+  /* line 55, ../scss/app.scss */
+  .masthead, .introduction, .location-section, .question-section, .content-footer {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -9921,30 +9912,44 @@ th.hide-for-touch {
     max-width: 62.5rem;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
-  .masthead:before, .masthead:after {
+  .masthead:before, .masthead:after, .introduction:before, .introduction:after, .location-section:before, .location-section:after, .question-section:before, .question-section:after, .content-footer:before, .content-footer:after {
     content: " ";
     display: table;
   }
   /* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
-  .masthead:after {
+  .masthead:after, .introduction:after, .location-section:after, .question-section:after, .content-footer:after {
     clear: both;
   }
-  /* line 56, ../scss/app.scss */
-  .masthead .intro-image {
+  /* line 57, ../scss/app.scss */
+  .masthead aside.mast-image, .introduction aside.mast-image, .location-section aside.mast-image, .question-section aside.mast-image, .content-footer aside.mast-image {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 41.66667%;
+    float: left;
+  }
+  /* line 60, ../scss/app.scss */
+  .masthead aside.mast-text, .introduction aside.mast-text, .location-section aside.mast-text, .question-section aside.mast-text, .content-footer aside.mast-text {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 58.33333%;
+    float: left;
+  }
+  /* line 64, ../scss/app.scss */
+  .masthead aside.intro-image, .masthead .location-image, .masthead .question-image, .introduction aside.intro-image, .introduction .location-image, .introduction .question-image, .location-section aside.intro-image, .location-section .location-image, .location-section .question-image, .question-section aside.intro-image, .question-section .location-image, .question-section .question-image, .content-footer aside.intro-image, .content-footer .location-image, .content-footer .question-image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
     float: left;
   }
-  /* line 58, ../scss/app.scss */
-  .masthead .intro-image .intro-text {
+  /* line 66, ../scss/app.scss */
+  .masthead aside.intro-text, .masthead .location-text, .masthead .question-text, .introduction aside.intro-text, .introduction .location-text, .introduction .question-text, .location-section aside.intro-text, .location-section .location-text, .location-section .question-text, .question-section aside.intro-text, .question-section .location-text, .question-section .question-text, .content-footer aside.intro-text, .content-footer .location-text, .content-footer .question-text {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 66.66667%;
     float: left;
   }
 }
-/* line 65, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .masthead img {
   width: 300px;
   height: 300px;
@@ -9953,22 +9958,13 @@ th.hide-for-touch {
   -moz-border-radius: 160px;
 }
 
-/* line 73, ../scss/app.scss */
-.masthead {
-  border: solid gray 3px;
-}
-
-/* line 77, ../scss/app.scss */
-.main {
-  border: solid red 3px;
-}
-
 /* line 81, ../scss/app.scss */
-.intro-image {
-  border: solid blue 3px;
-}
-
-/* line 85, ../scss/app.scss */
-.intro-text {
-  border: solid green 3px;
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+  opacity: 0.8;
 }
