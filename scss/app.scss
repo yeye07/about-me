@@ -46,8 +46,10 @@
 	@include grid-row();
   }
 
-.masthead,.introduction,.location-section,.question-section,.content-footer,.aside {
+.masthead,.introduction,.location-section,.question-section,.content-footer,.aside,.intro-image,.location-image,.question-image,intro-text,.location-text,.question-text {
   border:solid red 1px;
+   margin-left: auto;
+    margin-right: auto;
   }
 
 
