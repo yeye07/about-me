@@ -47,7 +47,7 @@
   }
 
 .masthead,.introduction,.location-section,.question-section,.content-footer,.aside,.intro-image,.location-image,.question-image,intro-text,.location-text,.question-text {
-  border:solid red 1px;
+  //border:solid red 1px;
   text-align:center;
   }
 
@@ -98,7 +98,9 @@ aside.mast-text {
 	padding-top:50px;
 }
 
-
+.mast-image{
+padding-top:15px;
+}
 
 .mast-image img {
 	width: 300px;

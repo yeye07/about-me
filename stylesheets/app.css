@@ -9898,7 +9898,6 @@ th.hide-for-touch {
 
 /* line 49, ../scss/app.scss */
 .masthead, .introduction, .location-section, .question-section, .content-footer, .aside, .intro-image, .location-image, .question-image, intro-text, .location-text, .question-text {
-  border: solid red 1px;
   text-align: center;
 }
 
@@ -9994,7 +9993,12 @@ aside.mast-text {
   padding-top: 50px;
 }
 
-/* line 103, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
+.mast-image {
+  padding-top: 15px;
+}
+
+/* line 105, ../scss/app.scss */
 .mast-image img {
   width: 300px;
   height: 300px;
@@ -10003,7 +10007,7 @@ aside.mast-text {
   -moz-border-radius: 160px;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 aside img {
   width: 260px;
   height: 260px;
@@ -10012,7 +10016,7 @@ aside img {
   -moz-border-radius: 160px;
 }
 
-/* line 119, ../scss/app.scss */
+/* line 121, ../scss/app.scss */
 hr {
   border: 0;
   height: 1px;
