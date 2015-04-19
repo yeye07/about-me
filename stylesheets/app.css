@@ -9925,14 +9925,14 @@ th.hide-for-touch {
   .masthead aside.mast-image, .introduction aside.mast-image, .location-section aside.mast-image, .question-section aside.mast-image, .content-footer aside.mast-image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 41.66667%;
+    width: 33.33333%;
     float: left;
   }
   /* line 60, ../scss/app.scss */
   .masthead aside.mast-text, .introduction aside.mast-text, .location-section aside.mast-text, .question-section aside.mast-text, .content-footer aside.mast-text {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 58.33333%;
+    width: 66.66667%;
     float: left;
   }
   /* line 64, ../scss/app.scss */
@@ -9970,19 +9970,31 @@ th.hide-for-touch {
 }
 
 /* line 80, ../scss/app.scss */
-h1, h2, h3, h4, h5 {
-  font-family: "shawdows into light" cursive;
+.body {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* line 86, ../scss/app.scss */
+.masthead h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
   font-weight: 900;
 }
 
-/* line 85, ../scss/app.scss */
-aside.mast-text {
-  position: relative;
-  top: 50px;
-  left: -30px;
+/* line 92, ../scss/app.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 900;
 }
 
-/* line 92, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
+aside.mast-text {
+  padding-top: 50px;
+}
+
+/* line 103, ../scss/app.scss */
 .mast-image img {
   width: 300px;
   height: 300px;
@@ -9991,7 +10003,7 @@ aside.mast-text {
   -moz-border-radius: 160px;
 }
 
-/* line 100, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 aside img {
   width: 260px;
   height: 260px;
@@ -10000,7 +10012,7 @@ aside img {
   -moz-border-radius: 160px;
 }
 
-/* line 108, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 hr {
   border: 0;
   height: 1px;
