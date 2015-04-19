@@ -9899,12 +9899,11 @@ th.hide-for-touch {
 /* line 49, ../scss/app.scss */
 .masthead, .introduction, .location-section, .question-section, .content-footer, .aside, .intro-image, .location-image, .question-image, intro-text, .location-text, .question-text {
   border: solid red 1px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 57, ../scss/app.scss */
+  /* line 56, ../scss/app.scss */
   .masthead, .introduction, .location-section, .question-section, .content-footer {
     width: 100%;
     margin-left: auto;
@@ -9922,28 +9921,28 @@ th.hide-for-touch {
   .masthead:after, .introduction:after, .location-section:after, .question-section:after, .content-footer:after {
     clear: both;
   }
-  /* line 59, ../scss/app.scss */
+  /* line 58, ../scss/app.scss */
   .masthead aside.mast-image, .introduction aside.mast-image, .location-section aside.mast-image, .question-section aside.mast-image, .content-footer aside.mast-image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 41.66667%;
     float: left;
   }
-  /* line 62, ../scss/app.scss */
+  /* line 61, ../scss/app.scss */
   .masthead aside.mast-text, .introduction aside.mast-text, .location-section aside.mast-text, .question-section aside.mast-text, .content-footer aside.mast-text {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 58.33333%;
     float: left;
   }
-  /* line 66, ../scss/app.scss */
+  /* line 65, ../scss/app.scss */
   .masthead aside.intro-image, .masthead .location-image, .masthead .question-image, .introduction aside.intro-image, .introduction .location-image, .introduction .question-image, .location-section aside.intro-image, .location-section .location-image, .location-section .question-image, .question-section aside.intro-image, .question-section .location-image, .question-section .question-image, .content-footer aside.intro-image, .content-footer .location-image, .content-footer .question-image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
     float: left;
   }
-  /* line 68, ../scss/app.scss */
+  /* line 67, ../scss/app.scss */
   .masthead aside.intro-text, .masthead .location-text, .masthead .question-text, .introduction aside.intro-text, .introduction .location-text, .introduction .question-text, .location-section aside.intro-text, .location-section .location-text, .location-section .question-text, .question-section aside.intro-text, .question-section .location-text, .question-section .question-text, .content-footer aside.intro-text, .content-footer .location-text, .content-footer .question-text {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -9951,7 +9950,7 @@ th.hide-for-touch {
     float: left;
   }
 }
-/* line 74, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .separator {
   width: 100%;
   margin-left: auto;
@@ -9970,7 +9969,7 @@ th.hide-for-touch {
   clear: both;
 }
 
-/* line 78, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .mast-image img {
   width: 300px;
   height: 300px;
@@ -9979,7 +9978,7 @@ th.hide-for-touch {
   -moz-border-radius: 160px;
 }
 
-/* line 86, ../scss/app.scss */
+/* line 85, ../scss/app.scss */
 aside img {
   width: 260px;
   height: 260px;
@@ -9988,7 +9987,7 @@ aside img {
   -moz-border-radius: 160px;
 }
 
-/* line 94, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 hr {
   border: 0;
   height: 1px;
