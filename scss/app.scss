@@ -51,7 +51,6 @@
   text-align:center;
   }
 
-
 @media #{$medium-up} {
 .masthead,.introduction,.location-section,.question-section,.content-footer,{
  @include grid-row();
@@ -72,6 +71,22 @@
 
 .separator{
 		@include grid-row();
+}
+
+//end of layout, 
+
+//design starts here//
+
+  h1, h2, h3 ,h4, h5,{
+  font-family:'shawdows into light'cursive;
+  font-weight:900;
+  }
+
+aside.mast-text {
+	position:relative;
+	top:50px;
+	left:-40px;
+
 }
 
 .mast-image img {
