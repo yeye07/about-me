@@ -1,29 +1,12 @@
-# Foundation Compass Template
+# Edwin's About me Page
 
-The easiest way to get started with Foundation + Compass.
+This is a work on progress, I will be updating it !
 
-## Requirements
+## Thank you Thinkful ! you guys have helped me a lot !
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+## Thank you Ben Gremillion <ben@zurb.com> You are simply amazing ! 
 
-## Quickstart
+I'll Be back soon ! 
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
-
-```bash
-bundle exec compass watch
-```
-
-## Upgrading
-
-If you'd like to upgrade to a newer version of Foundation down the road just run:
-
-```bash
-bower update
-```
+##Cheers 
+Edwin@wbperformance.com 
