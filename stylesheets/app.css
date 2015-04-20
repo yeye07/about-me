@@ -9975,30 +9975,38 @@ th.hide-for-touch {
   background-color: rgba(0, 0, 0, 0.02);
 }
 
-/* line 86, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .masthead h1 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
   font-weight: 900;
 }
 
-/* line 92, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'Shadows Into Light', cursive;
   font-weight: 900;
 }
 
-/* line 97, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
+footer h2 {
+  font-weight: 400;
+  font-size: 25px;
+  padding-bottom: 50px;
+  line-height: 200%;
+}
+
+/* line 105, ../scss/app.scss */
 aside.mast-text {
   padding-top: 50px;
 }
 
-/* line 101, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 .mast-image {
   padding-top: 15px;
 }
 
-/* line 105, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 .mast-image img {
   width: 300px;
   height: 300px;
@@ -10007,7 +10015,7 @@ aside.mast-text {
   -moz-border-radius: 160px;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 121, ../scss/app.scss */
 aside img {
   width: 260px;
   height: 260px;
@@ -10016,7 +10024,7 @@ aside img {
   -moz-border-radius: 160px;
 }
 
-/* line 121, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 hr {
   border: 0;
   height: 1px;
@@ -10025,4 +10033,14 @@ hr {
   background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
   background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
   opacity: 0.8;
+}
+
+/* line 139, ../scss/app.scss */
+.intro-text {
+  padding-top: 15px;
+}
+
+/* line 143, ../scss/app.scss */
+.location-text {
+  padding-top: 20px;
 }

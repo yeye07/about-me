@@ -81,6 +81,7 @@
 font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-weight: 400;
   background-color: rgba(0, 0, 0, 0.02);
+
   }
 
 .masthead h1 {
@@ -92,6 +93,13 @@ font-family: 'Raleway', Helvetica, Arial, sans-serif;
 h1, h2, h3 ,h4, h5,{
   font-family: 'Shadows Into Light', cursive;
   font-weight: 900;
+  }
+
+footer h2 {
+  font-weight: 400;
+    font-size: 25px;
+    padding-bottom:50px;
+    line-height:200%;
   }
 
 aside.mast-text {
@@ -126,4 +134,12 @@ hr {
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
   opacity: 0.8;
+}
+
+.intro-text,{
+	padding-top:15px;
+}
+
+.location-text{
+		padding-top:20px;
 }
