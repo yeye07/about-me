@@ -9973,6 +9973,7 @@ th.hide-for-touch {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-weight: 400;
   background-color: rgba(0, 0, 0, 0.02);
+  font-size: 40px;
 }
 
 /* line 87, ../scss/app.scss */
