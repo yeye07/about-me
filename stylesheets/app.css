@@ -9878,6 +9878,56 @@ th.hide-for-touch {
   }
 }
 /* line 45, ../scss/app.scss */
+section.LanguagesRow {
+  width: auto;
+  margin: 0;
+  max-width: none;
+}
+/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
+section.LanguagesRow:before, section.LanguagesRow:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
+section.LanguagesRow:after {
+  clear: both;
+}
+
+/* line 50, ../scss/app.scss */
+section.LanguagesColumn {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 91.66667%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+/* line 54, ../scss/app.scss */
+section.LanguagesRow section.LanguagesColumn ul.flags {
+  margin: 0 auto 1.0625rem auto;
+  margin-left: -1.375rem;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  float: right;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+/* line 42, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+section.LanguagesRow section.LanguagesColumn ul.flags > li {
+  list-style: none;
+  float: left;
+  margin-left: 1.375rem;
+  display: block;
+}
+/* line 47, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+section.LanguagesRow section.LanguagesColumn ul.flags > li > * {
+  display: block;
+}
+
+/* line 60, ../scss/app.scss */
 .masthead, .introduction, .location-section, .question-section, .content-footer, .aside {
   width: 100%;
   margin-left: auto;
@@ -9896,13 +9946,13 @@ th.hide-for-touch {
   clear: both;
 }
 
-/* line 49, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .masthead, .introduction, .location-section, .question-section, .content-footer, .aside, .intro-image, .location-image, .question-image, intro-text, .location-text, .question-text {
   text-align: center;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 55, ../scss/app.scss */
+  /* line 70, ../scss/app.scss */
   .masthead, .introduction, .location-section, .question-section, .content-footer {
     width: 100%;
     margin-left: auto;
@@ -9920,28 +9970,28 @@ th.hide-for-touch {
   .masthead:after, .introduction:after, .location-section:after, .question-section:after, .content-footer:after {
     clear: both;
   }
-  /* line 57, ../scss/app.scss */
+  /* line 72, ../scss/app.scss */
   .masthead aside.mast-image, .introduction aside.mast-image, .location-section aside.mast-image, .question-section aside.mast-image, .content-footer aside.mast-image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
     float: left;
   }
-  /* line 60, ../scss/app.scss */
+  /* line 75, ../scss/app.scss */
   .masthead aside.mast-text, .introduction aside.mast-text, .location-section aside.mast-text, .question-section aside.mast-text, .content-footer aside.mast-text {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 66.66667%;
     float: left;
   }
-  /* line 64, ../scss/app.scss */
+  /* line 79, ../scss/app.scss */
   .masthead aside.intro-image, .masthead .location-image, .masthead .question-image, .introduction aside.intro-image, .introduction .location-image, .introduction .question-image, .location-section aside.intro-image, .location-section .location-image, .location-section .question-image, .question-section aside.intro-image, .question-section .location-image, .question-section .question-image, .content-footer aside.intro-image, .content-footer .location-image, .content-footer .question-image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 33.33333%;
     float: left;
   }
-  /* line 66, ../scss/app.scss */
+  /* line 81, ../scss/app.scss */
   .masthead aside.intro-text, .masthead .location-text, .masthead .question-text, .introduction aside.intro-text, .introduction .location-text, .introduction .question-text, .location-section aside.intro-text, .location-section .location-text, .location-section .question-text, .question-section aside.intro-text, .question-section .location-text, .question-section .question-text, .content-footer aside.intro-text, .content-footer .location-text, .content-footer .question-text {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -9949,7 +9999,7 @@ th.hide-for-touch {
     float: left;
   }
 }
-/* line 72, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .separator {
   width: 100%;
   margin-left: auto;
@@ -9968,7 +10018,7 @@ th.hide-for-touch {
   clear: both;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .body {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -9976,20 +10026,20 @@ th.hide-for-touch {
   font-size: 40px;
 }
 
-/* line 87, ../scss/app.scss */
+/* line 102, ../scss/app.scss */
 .masthead h1 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 50px;
   font-weight: 900;
 }
 
-/* line 93, ../scss/app.scss */
+/* line 108, ../scss/app.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'Shadows Into Light', cursive;
   font-weight: 900;
 }
 
-/* line 98, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 footer h2 {
   font-weight: 600;
   font-size: 25px;
@@ -9997,17 +10047,17 @@ footer h2 {
   line-height: 200%;
 }
 
-/* line 105, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 aside.mast-text {
   padding-top: 50px;
 }
 
-/* line 109, ../scss/app.scss */
+/* line 124, ../scss/app.scss */
 .mast-image {
   padding-top: 15px;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .mast-image img {
   width: 300px;
   height: 300px;
@@ -10016,7 +10066,7 @@ aside.mast-text {
   -moz-border-radius: 160px;
 }
 
-/* line 121, ../scss/app.scss */
+/* line 136, ../scss/app.scss */
 aside img {
   width: 260px;
   height: 260px;
@@ -10025,7 +10075,7 @@ aside img {
   -moz-border-radius: 160px;
 }
 
-/* line 129, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 hr {
   border: 0;
   height: 1px;
@@ -10036,12 +10086,12 @@ hr {
   opacity: 0.8;
 }
 
-/* line 139, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 .intro-text {
   padding-top: 15px;
 }
 
-/* line 143, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 .location-text {
   padding-top: 20px;
 }

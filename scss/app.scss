@@ -42,6 +42,21 @@
 
 //layout mobile first, media queries for larger screens//
 
+section.LanguagesRow{
+  @include grid-row($behavior:nest-collapse);
+}
+  
+
+section.LanguagesColumn{
+  @include grid-column($columns:11,$center:true);
+  }
+
+section.LanguagesRow section.LanguagesColumn ul.flags{
+  @include inline-list;
+  float:right;
+  margin:0.5rem 0rem 0rem 0rem;
+}
+
 .masthead,.introduction,.location-section,.question-section,.content-footer,.aside {
 	@include grid-row();
   }
