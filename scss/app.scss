@@ -42,6 +42,9 @@
 
 //layout mobile first, media queries for larger screens//
 
+
+
+
 section.LanguagesRow{
   @include grid-row($behavior:nest-collapse);
 }
@@ -57,17 +60,91 @@ section.LanguagesRow section.LanguagesColumn ul.flags{
   margin:0.5rem 0rem 0rem 0rem;
 }
 
-.masthead,.introduction,.location-section,.question-section,.content-footer,.aside {
+
+section.BioGrid, section.SkillsGrid{
+  @include grid-row();
+}
+
+section.BioColumn, section.SkillsColumn{
+    @include grid-column($columns:11,$center:true);
+    text-align:center;
+    padding:1rem;
+    margin:1rem ;
+}
+
+
+section.BioColumn, section.SkillsColumn h2{
+  //text-transform:uppercase;
+    font-weight:300;//
+}
+
+
+section.SkillsColumn ul.Skills{
+  @include block-grid(2);
+}
+
+section.WorkIloveGrid{
+@include grid-row();
+}
+
+section.WorkIloveColumn{
+  @include grid-column($columns:11,$center:true);
+}
+
+section.WorkIloveColumn ul.Projects{
+  @include block-grid(1);
+  text-align:center;
+}
+
+
+section.InvestGrid{
+ @include grid-row();
+}
+
+section.InvestColumn{
+    @include grid-column($columns:11,$center:true);
+ }
+
+
+
+footer.Grid{
+  @include grid-row();
+}
+
+
+
+
+footer.Grid section.Column1, section.Column2,section.Column3,section.SpecialThanksColumn {
+  @include grid-column($columns:11,$center:true);
+}
+
+
+
+
+
+.masthead,.introduction,.location-section,.question-section,.aside {
 	@include grid-row();
   }
 
-.masthead,.introduction,.location-section,.question-section,.content-footer,.aside,.intro-image,.location-image,.question-image,intro-text,.location-text,.question-text {
+
+Section.Introduction aside.InroductionBrief{
+  @include grid-column($columns:10,$center:true);
+}
+
+
+Section.Introduction aside.InroductionBrief{ 
+text-align:center;
+
+}
+
+
+.masthead,.introduction,.location-section,.question-section,.aside,.intro-image,.location-image,.question-image,intro-text,.location-text,.question-text {
   //border:solid red 1px;
   text-align:center;
   }
 
 @media #{$medium-up} {
-.masthead,.introduction,.location-section,.question-section,.content-footer,{
+.masthead,.introduction,.location-section,.question-section,{
  @include grid-row();
 	aside.mast-image {
 	@include grid-column (4);
@@ -92,34 +169,9 @@ section.LanguagesRow section.LanguagesColumn ul.flags{
 
 //design starts here//
 
-.body{
-font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  background-color: rgba(0, 0, 0, 0.02);
-font-size:40px;
-  }
 
-.masthead h1 {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 50px;
-  font-weight:900;
-}
 
-h1, h2, h3 ,h4, h5,{
-  font-family: 'Shadows Into Light', cursive;
-  font-weight: 900;
-  }
 
-footer h2 {
-  font-weight: 600;
-    font-size: 25px;
-    padding-bottom:50px;
-    line-height:200%;
-  }
-
-aside.mast-text {
-	padding-top:50px;
-}
 
 .mast-image{
 padding-top:15px;
